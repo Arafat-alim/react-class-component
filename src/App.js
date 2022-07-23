@@ -1,12 +1,11 @@
 import React from "react";
-
-import GoOutParent from "./components/GoOutParent";
+import Counter from "./components/Counter";
 
 export default class App extends React.Component {
   render() {
     return (
       <div>
-        <GoOutParent />
+        <Counter />
       </div>
     );
   }
