@@ -30,11 +30,7 @@ export default class Counter extends React.Component {
   };
   add = () => {
     // setCount((prevCount) => prevCount + 1);
-    this.setState((prevState) => {
-      return {
-        count: prevState.count + 1,
-      };
-    });
+    this.setState((prevState) => ({ count: prevState.count + 1 }));
   };
   subtract = () => {
     // setCount((prevCount) => prevCount - 1);
