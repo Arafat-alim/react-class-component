@@ -21,13 +21,17 @@ export default class GoOutParent extends React.Component {
     isGoing: true,
   };
   //! function
-  // function handleClick(){
-  //     this.setState((prevState) => !prevState);
-  // }
+  handleClick = () => {
+    this.setState((prevState) => {
+      return {
+        isGoing: !prevState.isGoing,
+      };
+    });
+  };
   render() {
     return (
       <div>
-        <GoOut isGoing={this.isGoing} handleClick={this.handleClick} />
+        <GoOut isGoing={this.state.isGoing} handleClick={this.handleClick} />
       </div>
     );
   }
