@@ -4,7 +4,7 @@ export default class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Class Component</h1>
+        <h1>{this.props.type} Component</h1>
       </div>
     );
   }
