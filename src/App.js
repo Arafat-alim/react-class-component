@@ -1,11 +1,11 @@
 import React from "react";
-import Counter from "./components/Counter";
+import LikeComponent from "./components/LikeComponent";
 
 export default class App extends React.Component {
   render() {
     return (
       <div>
-        <Counter />
+        <LikeComponent />
       </div>
     );
   }
