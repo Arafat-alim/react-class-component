@@ -1,11 +1,12 @@
 import React from "react";
-import LikeComponent from "./components/LikeComponent";
+import MountingPhase from "./components/LifeCycle/MountingPhase";
 
 export default class App extends React.Component {
   render() {
+    console.log("App - Render Method");
     return (
       <div>
-        <LikeComponent />
+        <MountingPhase />
       </div>
     );
   }
