@@ -25,6 +25,13 @@ export default class Form extends React.Component {
   handleSubmit = (e) => {
     e.preventDefault();
   };
+
+  componentDidMount() {
+    this.setState(JSON.parse(localStorage.getItem("formData")));
+  }
+  componentDidUpdate() {
+    localStorage.setItem("formData", JSON.stringify(this.state));
+  }
   render() {
     return (
       <div>
