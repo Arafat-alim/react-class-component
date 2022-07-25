@@ -1,12 +1,12 @@
 import React from "react";
-import Form from "./components/LifeCycle/Form";
+import FetchingGuide from "./components/LifeCycle/FetchingGuide";
 
 export default class App extends React.Component {
   render() {
     console.log("App - Render Method");
     return (
       <div>
-        <Form />
+        <FetchingGuide />
       </div>
     );
   }
