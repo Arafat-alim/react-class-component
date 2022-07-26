@@ -1,12 +1,12 @@
 import React from "react";
-import FetchingGuide from "./components/LifeCycle/FetchingGuide";
+import CurrentWidth from "./components/LifeCycle/CurrentWidth";
 
 export default class App extends React.Component {
   render() {
     console.log("App - Render Method");
     return (
       <div>
-        <FetchingGuide />
+        <CurrentWidth />
       </div>
     );
   }
