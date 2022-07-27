@@ -12,6 +12,7 @@ export default class CurrentWidth extends React.Component {
       <div>
         <h1>Current Width: {this.state.innerWidth}</h1>
         <h1>Current Height: {this.state.innerHeight}</h1>
+        <P>sAVING dUMB</P>
       </div>
     );
   }
