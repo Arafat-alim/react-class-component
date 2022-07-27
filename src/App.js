@@ -1,12 +1,13 @@
 import React from "react";
-import CurrentWidth from "./components/LifeCycle/CurrentWidth";
+
+import MainCurrent from "./components/LifeCycle/MainCurrent";
 
 export default class App extends React.Component {
   render() {
     console.log("App - Render Method");
     return (
       <div>
-        <CurrentWidth />
+        <MainCurrent />
       </div>
     );
   }
